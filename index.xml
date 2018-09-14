@@ -13,10 +13,10 @@
     
     <item>
       <title>Price of Games</title>
-      <link>https://dylanbr0wn.github.io/post/creating-a-new-theme/</link>
+      <link>https://dylanbr0wn.github.io/posts/price_of_games/</link>
       <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
       
-      <guid>https://dylanbr0wn.github.io/post/creating-a-new-theme/</guid>
+      <guid>https://dylanbr0wn.github.io/posts/price_of_games/</guid>
       <description>Background Lets get straight to the point, why pay more for PC games then you should? Pirate or not, it always feels better knowing you supported a developer, even if its minimal. Price of Games aimes to provide you with up to date prices of games across multiple stores/vendors, so you can get the best price on your new games.
 Architecture and History As I decided to dive into webapp development blindly and without direction in an attempt to learn quickly, the initial design decisions for POG are not ideal by any stretch.</description>
     </item>
