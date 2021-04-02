@@ -1,0 +1,95 @@
+/* ./styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+        Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.st0 {
+    opacity: 0.5;
+    fill: #8629e3;
+    isolation: isolate;
+}
+.st1 {
+    opacity: 0.5;
+    fill: #29e33b;
+    isolation: isolate;
+}
+.st2 {
+    opacity: 0.5;
+    fill: #29abe2;
+    isolation: isolate;
+}
+
+.default {
+    opacity: 0;
+    visibility: hidden;
+    top: 0px;
+    transition-duration: 200ms, 200ms, 0s;
+    transition-property: opacity, top, visibility;
+    transition-delay: 0s, 0s, 200ms;
+    -webkit-transition-duration: 200ms, 200ms, 0s;
+    -webkit-transition-delay: 0s, 0s, 200ms;
+    -webkit-transition-property: opacity, top, visibility;
+}
+
+.showSubBar {
+    opacity: 1;
+    visibility: visible;
+    top: 4rem;
+    -webkit-transition-duration: 200ms, 200ms, 0s;
+    -webkit-transition-delay: 200ms, 200ms, 0s;
+    -webkit-transition-property: opacity, top, visibility;
+    transition-duration: 200ms, 200ms, 0s;
+    transition-property: opacity, top, visibility;
+    transition-delay: 200ms, 200ms, 0s;
+}
+
+.graphAnimation {
+    animation-fill-mode: both;
+}
+
+#hero-image-1 {
+    background-size: cover;
+    background-color: gray;
+}
+#hero-image-2 {
+    background-size: cover;
+    background-color: gray;
+}
+
+.monoFont {
+    /* font-family: 'Major Mono Display', monospace; */
+    font-family: "VT323", monospace;
+}
+
+.textEffect {
+    text-shadow: -5px 10 magenta;
+}
+
+canvas {
+    border: 0px none black;
+    outline: none;
+    /* pointer-events: none; */
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    cursor: none;
+}
